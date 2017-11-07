@@ -1,0 +1,72 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <div class="header">
+
+        <h1>Crsytal Collector!</h1>
+    </div>
+
+    <div class="Instructions">
+        <li>You will be given a random number at the start of the game.</li>
+        </br>
+        <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+        </br>
+        <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+        </br>
+        <li>The value of each crystal is hidden from you until you click on it.</li>
+        </br>
+        <li>Each time when the game starts, the game will change the values of each crystal</li>
+
+    </div>
+
+    <div class="gems">
+        <img src="assets/images/red.png" class=gempic id="one" alt="Red Crystal">
+        <img src="assets/images/blue.png" class=gempic id="two" alt="Blue Crystal">
+        <img src="assets/images/yellow.png" class=gempic id="three" alt="Yellow Crystal">
+        <img src="assets/images/green.png" class=gempic id="four" alt="Green Crystal">
+    </div>
+
+
+    <div id="numberToMatch">
+
+        <h2>Number To Get:
+
+            <span id="randomNumber"></span>
+        </h2>
+
+    </div>
+
+    <div class="winsAndLosses">
+
+        <h2>Wins:
+            <span id="numberWins"></span>
+            </br>
+
+            Losses:
+            <span id="numberLosses"></span>
+
+        </h2>
+
+    </div>
+
+    <div class="userTotal">
+
+        <h2>Your total score is:
+            <span id="finalTotal"></span>
+
+        </h2>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+
+
+</html>

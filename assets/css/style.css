@@ -1,0 +1,74 @@
+body {
+
+    background-image: url("../images/crystalbackground.jpg")
+}
+
+h1 {
+    background-color: orange;
+    color: blue;
+    margin-bottom: 10px;
+    clear: both;
+    text-align: center;
+    width: 50%;
+}
+
+h2 {
+    background-color: #F5F5DC;
+    color: blue;
+    margin-bottom: 10px;
+    clear: both;
+    width: 50%;
+
+}
+
+.Instructions {
+
+    background-color: #F5F5DC;
+    width: 50%;
+    margin-bottom: 10px;
+    clear: both;
+    text-align: center;
+}
+
+#wrapper {
+    max-width: 960px;
+    width: 100%;
+}
+
+.Crystal {
+    background-color: white;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.Score {
+    padding: 10px;
+    margin: 10px 5px 20px 2px;
+
+}
+
+.numberToMatch {
+    float: left;
+    width: 20%;
+    height: 50px;
+}
+
+.gems {
+    clear: both;
+}
+
+.gempic {
+    height: 100px;
+    width: 130px;
+    margin: 20px;
+}
+
+.Score {
+    height: 70px;
+}
+
+.span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
